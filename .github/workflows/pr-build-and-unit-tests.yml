@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         configuration: [Debug, Release]
-    runs-on: windows-2022
+    runs-on: windows-2025
     env:
       Solution_Name: StatisticsAnalysisTool.sln
       Test_Project_Path: src\StatisticsAnalysisTool.UnitTests\StatisticsAnalysisTool.UnitTests.csproj
